@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Methodology on Vultursec | Security in your hand</title>
+    <link>https://vultursectest.github.io/tags/methodology/</link>
+    <description>Recent content in Methodology on Vultursec | Security in your hand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursectest.github.io/tags/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VulturSec Cloud Methodology</title>
+      <link>https://vultursectest.github.io/blog/cloud-methodology/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursectest.github.io/blog/cloud-methodology/</guid>
+      <description>Cloud security assessments test the security on another level that usually would not be directly evaluated during a traditional external network assessment or pentest because traditional security and clouds infrastructure differs on multiple ways.</description>
+    </item>
+    
+    <item>
+      <title>VulturSec Mobile Methodology</title>
+      <link>https://vultursectest.github.io/blog/mobile-methodology/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursectest.github.io/blog/mobile-methodology/</guid>
+      <description>Mobile penetration testing is different than traditional penetration testing, just like mobile applications are different than traditional ones.</description>
+    </item>
+    
+    <item>
+      <title>VulturSec Red Team Methodology</title>
+      <link>https://vultursectest.github.io/blog/red-team-methodology/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursectest.github.io/blog/red-team-methodology/</guid>
+      <description>Red Team Assessments are highly precise assessments that target to compromise critical assets in our customers network, with any possible technique available.</description>
+    </item>
+    
+    <item>
+      <title>VulturSec SDLC Methodology</title>
+      <link>https://vultursectest.github.io/blog/sdlc-methodology/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursectest.github.io/blog/sdlc-methodology/</guid>
+      <description>A long time ago security was a desired aspect on any application, sometimes it was seen as an optional feature as it was thought that it didn&amp;rsquo;t add any value to the product.</description>
+    </item>
+    
+    <item>
+      <title>VulturSec Web Methodology</title>
+      <link>https://vultursectest.github.io/blog/web-methodology/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursectest.github.io/blog/web-methodology/</guid>
+      <description>Web applications are the core of today’s software.
+From webapps in highly scalable AWS environments with multiple microservices running to legacy apps in more traditional infrastructures, the VulturSec team helped secure data across the world.</description>
+    </item>
+    
+  </channel>
+</rss>

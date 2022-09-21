@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Vultursec | Security in your hand</title>
+    <link>https://vultursectest.github.io/tags/web/</link>
+    <description>Recent content in Web on Vultursec | Security in your hand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursectest.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VulturSec Web Methodology</title>
+      <link>https://vultursectest.github.io/blog/web-methodology/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursectest.github.io/blog/web-methodology/</guid>
+      <description>Web applications are the core of today’s software.
+From webapps in highly scalable AWS environments with multiple microservices running to legacy apps in more traditional infrastructures, the VulturSec team helped secure data across the world.</description>
+    </item>
+    
+  </channel>
+</rss>
