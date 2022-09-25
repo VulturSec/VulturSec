@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vultursec | Security in your hand</title>
-    <link>https://vultursec.github.io/tags/</link>
+    <link>https://vultursec.github.io/vultursec/tags/</link>
     <description>Recent content in Tags on Vultursec | Security in your hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.github.io/vultursec/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Assessment</title>
-      <link>https://vultursec.github.io/tags/assessment/</link>
+      <link>https://vultursec.github.io/vultursec/tags/assessment/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/assessment/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/assessment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>https://vultursec.github.io/tags/cloud/</link>
+      <link>https://vultursec.github.io/vultursec/tags/cloud/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/cloud/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Methodology</title>
-      <link>https://vultursec.github.io/tags/methodology/</link>
+      <link>https://vultursec.github.io/vultursec/tags/methodology/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/methodology/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/methodology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>https://vultursec.github.io/tags/mobile/</link>
+      <link>https://vultursec.github.io/vultursec/tags/mobile/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/mobile/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Red Team</title>
-      <link>https://vultursec.github.io/tags/red-team/</link>
+      <link>https://vultursec.github.io/vultursec/tags/red-team/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/red-team/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/red-team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sdlc</title>
-      <link>https://vultursec.github.io/tags/sdlc/</link>
+      <link>https://vultursec.github.io/vultursec/tags/sdlc/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/sdlc/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/sdlc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>https://vultursec.github.io/tags/web/</link>
+      <link>https://vultursec.github.io/vultursec/tags/web/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/tags/web/</guid>
+      <guid>https://vultursec.github.io/vultursec/tags/web/</guid>
       <description></description>
     </item>
     

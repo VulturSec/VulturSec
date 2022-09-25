@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sdlc on Vultursec | Security in your hand</title>
-    <link>https://vultursec.github.io/tags/sdlc/</link>
+    <link>https://vultursec.github.io/vultursec/tags/sdlc/</link>
     <description>Recent content in Sdlc on Vultursec | Security in your hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.github.io/tags/sdlc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.github.io/vultursec/tags/sdlc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VulturSec SDLC Methodology</title>
-      <link>https://vultursec.github.io/blog/sdlc-methodology/</link>
+      <link>https://vultursec.github.io/vultursec/blog/sdlc-methodology/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/blog/sdlc-methodology/</guid>
+      <guid>https://vultursec.github.io/vultursec/blog/sdlc-methodology/</guid>
       <description>A long time ago security was a desired aspect on any application, sometimes it was seen as an optional feature as it was thought that it didn&amp;rsquo;t add any value to the product.</description>
     </item>
     

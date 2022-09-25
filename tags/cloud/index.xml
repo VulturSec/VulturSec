@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Vultursec | Security in your hand</title>
-    <link>https://vultursec.github.io/tags/cloud/</link>
+    <link>https://vultursec.github.io/vultursec/tags/cloud/</link>
     <description>Recent content in Cloud on Vultursec | Security in your hand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.github.io/vultursec/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VulturSec Cloud Methodology</title>
-      <link>https://vultursec.github.io/blog/cloud-methodology/</link>
+      <link>https://vultursec.github.io/vultursec/blog/cloud-methodology/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 -0300</pubDate>
       
-      <guid>https://vultursec.github.io/blog/cloud-methodology/</guid>
+      <guid>https://vultursec.github.io/vultursec/blog/cloud-methodology/</guid>
       <description>Cloud security assessments test the security on another level that usually would not be directly evaluated during a traditional external network assessment or pentest because traditional security and clouds infrastructure differs on multiple ways.</description>
     </item>
     
