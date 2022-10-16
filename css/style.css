@@ -13497,7 +13497,7 @@ body.white-page header .navbar-collapse ul li:last-child {
 
 /*--### SINGLE POST BANNER ###--*/
 .single-post-banner {
-  background-color: #f0f8ff;
+/*  background-color: #f0f8ff; */
   padding: 100px 0px;
 }
 .single-post-banner .row {
