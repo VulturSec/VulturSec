@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vultursec.com/blog/android-mobile-hacking-1/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/categories/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/tags/game/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/categories/gamehacking/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/tags/hacking/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/blog/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/tags/mobile/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/tags/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://vultursec.com/</loc>
+    <lastmod>2023-10-01T00:00:00-03:00</lastmod>
+  </url><url>
     <loc>https://vultursec.com/tags/assessment/</loc>
     <lastmod>2022-09-01T00:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://vultursec.com/categories/</loc>
-    <lastmod>2022-09-01T00:00:00-03:00</lastmod>
-  </url><url>
     <loc>https://vultursec.com/tags/cloud/</loc>
-    <lastmod>2022-09-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://vultursec.com/blog/</loc>
     <lastmod>2022-09-01T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://vultursec.com/categories/methodologies/</loc>
@@ -20,19 +41,10 @@
     <loc>https://vultursec.com/tags/methodology/</loc>
     <lastmod>2022-09-01T00:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://vultursec.com/tags/mobile/</loc>
-    <lastmod>2022-09-01T00:00:00-03:00</lastmod>
-  </url><url>
     <loc>https://vultursec.com/tags/red-team/</loc>
     <lastmod>2022-09-01T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://vultursec.com/tags/sdlc/</loc>
-    <lastmod>2022-09-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://vultursec.com/tags/</loc>
-    <lastmod>2022-09-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://vultursec.com/</loc>
     <lastmod>2022-09-01T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://vultursec.com/blog/cloud-methodology/</loc>
