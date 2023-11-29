@@ -3,12 +3,12 @@
 
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>VulturSec Red Team Methodology</title>
+  <title>Reflection of Hack on Fractured Online</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="VulturSec Read Team Assessment Methodology">
+    content="Reflection of Hack on Fractured Online">
 
     
     <link rel="icon" href="https://vultursec.com/images/favicon.ico" type="image/gif" sizes="16x16">
@@ -111,14 +111,14 @@
             data-aos="fade-down"
             data-aos-delay="100"
           >
-            <h1>VulturSec Red Team Methodology</h1>
+            <h1>Reflection of Hack on Fractured Online</h1>
           </div>
           <div class="author-meta-details">
-            Posted by VulturSec Team, on 01 Sep, 2022 
+            Posted by VulturSec Team, on 26 Nov, 2023 
           </div>
           <div class="section-text" data-aos="fade-in" data-aos-delay="300">
             <p>
-              Red Team Assessments are highly precise assessments with the objective of compromise critical assets in our customers network, with any possible technique available.
+              Greetings, all! I&rsquo;m excited to share a post that delves into the aftermath of a recent security incident involving the game Fractured Online.
             </p>
           </div>
         </div>
@@ -126,7 +126,7 @@
       <div class="col-md-6 col-sm-6 col-12">
         <div class="image" data-aos="fade-left" data-aos-delay="500">
           <img
-            src="/images/blog/red-team-methodology.jpg"
+            src="/images/blog/fractured-online-hacked/fractured-online-hacked.webp"
             alt="Blog Image"
             class="img-responsive"
           />
@@ -146,7 +146,7 @@
     <div class="row">
       
       <div class="section-heading">
-        <h3>VulturSec Red Team Methodology</h3>
+        <h3>Reflection of Hack on Fractured Online</h3>
       </div>
       <div class="col-lg-9 order-1 order-lg-1">
         
@@ -156,50 +156,49 @@
         </div>
         
         <div class="col-12 mb-5 text">
-          <p>Red Team Assessments are highly precise assessments with the objective of compromise critical assets in our customers network, with any possible technique available. Unlike a traditional penetration test, in which our team attempt to exploit any vulnerability in a before-defined scope these engagements simulate a real attack on your organization.</p>
-<p>Using the combination of multiple types of attack techniques, we can find an attack vector to compromise any critical business assets. Discovering existing vulnerabilities in your applications, networks, IoT devices, and employees. We can also determine any flaws on your security monitoring, logging and alerting capabilities, as well as weaknesses in your incident response policies and procedures.</p>
-<p>These assessments are used by our customers to see the big-picture on their organizations on a cyber-security level, and priorizate/plan on any future security initiatives.</p>
-<p><strong>1 – Scope</strong></p>
-<p>Red team Assessments are focused on compromise critical business assets and the scoping process defines areas to exclude from the assessment.</p>
-<p>These are the steps followed by our team on this stage:</p>
+          <p>Greetings, all! I&rsquo;m excited to share a post that delves into the aftermath of a recent security incident involving the game <strong>Fractured Online</strong>.</p>
+<p>You can find details about the attack here: <a href="https://fracturedmmo.com/november-19-attack-breakdown/">Fractured Attack Breakdown</a></p>
+<p>It&rsquo;s important to note that the primary focus of this post isn&rsquo;t to dissect the specifics of the hack (as they are still unclear at the time of writing). Instead, the goal is to provide thoughtful reflections on various security-related topics arising from this incident.</p>
+<p><strong>Risk management</strong></p>
+<p>This kind of attacks underscores the critical importance of robust risk management strategies. As we delve into the incident, one pivotal aspect emerges: the testing and evaluation of internal APIs. Often, internal APIs are not subjected to the same rigorous testing protocols as their client-side counterparts, leaving potential vulnerabilities unnoticed.</p>
+<p><img src="/images/blog/fractured-online-hacked/risk_management.png" alt="Risk Management"></p>
+<p>A foundational step in understanding and mitigating risks is a thorough examination of the attack surface. In this instance, there might have been a misconception among developers that the API in question was strictly internal, leading to a potential oversight in assessing its security posture. The assumption that no external entity should have access to the API may have inadvertently contributed to a false sense of security.</p>
+<p>Considering the threat landscape, internal attackers pose a unique challenge. In scenarios where an API is perceived as internal and not adequately protected, a malicious insider could exploit their privileged position. This raises crucial questions about assessing internal user privileges and potential actions they could undertake.</p>
+<p>To measure and manage such risks within a company, a comprehensive approach is essential. Conducting regular audits and vulnerability assessments on internal APIs, even those deemed internal, is paramount. A robust access control mechanism should be in place, ensuring that only authorized personnel can interact with sensitive APIs. Continuous monitoring and logging of API activities contribute to real-time threat detection, enabling swift response to any suspicious behavior.</p>
+<p>Internal user privileges should be meticulously defined, adhering to the principle of least privilege. Regularly reviewing and updating these privileges based on job roles and responsibilities is vital to prevent unauthorized access or misuse. Implementing a robust identity and access management (IAM) system helps enforce these principles and ensures that internal users only have access to the resources necessary for their tasks.</p>
+<p><strong>Production changes</strong></p>
+<p>In the contemporary landscape characterized by the prevalence of Infrastructure as Code (IaC) and Continuous Integration/Continuous Deployment (CI/CD) practices, the conventional wisdom increasingly discourages the execution of manual tasks within production environments. Presently, numerous organizations unequivocally recognize this principle in the context of infrastructure, servers, and Docker images. However, a recurring pattern persists in the modification of production environments, often involving:</p>
 <ul>
-<li>Create a list of goals or “flags” to accomplish during the assessment.</li>
-<li>Crate a “Rules of Engagement,” making clear what activities are allowed and what are forbidden (such as on-site social engineering and other sensitive techniques).</li>
-<li>Make clear exclusions from the attack surface, for example: IP addressess, applications, and any specific/sensitive employees.</li>
-<li>Confirm the testing period, timezone, communications limitation/availability.</li>
+<li>Developers directly interfacing with the database to effect changes or query states.</li>
+<li>The deployment of APIs designed for administrators, which introduces a superficial layer of abstraction.</li>
 </ul>
-<p><strong>2 – Reconnaissance phase</strong></p>
-<p>Our information gathering phase combine a mix of Open Source Intelligence (OSINT) resources for gathering data on our customer organization, adding both public and private methods of intelligence gathering in order to develop an early plan of attack.</p>
-<p>These are some activities executed during our reconnaissance:</p>
+<p>Despite the advancements in automated deployment and configuration management, certain operational practices continue to rely on manual interventions, particularly in scenarios involving database interactions and administrative APIs utilization within production environments.</p>
+<p>Making direct changes to a production database through APIs with admin privileges poses significant security and integrity risks. To circumvent these challenges, organizations can implement a series of safeguards and alternative methodologies. A fundamental strategy is to adopt a microservices architecture with well-defined APIs that adhere to the principle of least privilege. Instead of exposing broad admin capabilities, APIs should be granular, allowing for specific actions tied to necessary business functions.</p>
+<p>A viable alternative is to introduce an event-driven architecture, where changes are triggered by specific events, and subsequent actions are automated. This ensures that modifications to the database are initiated in response to predefined events, such as user actions, without the need for direct API calls. This event-driven approach provides a more controlled and auditable method for managing data changes, reducing the risk of accidental or malicious alterations.</p>
+<p><img src="/images/blog/fractured-online-hacked/event-driven.png" alt="Event Driven Architecture"></p>
+<p>In the case of the vulnerable functionality developers should change the logic related to the deletion of the cities. In which scenarios should a city be deleted?</p>
+<p>In those cases developers could create a simple Pub/Sub architecture where the API that deletes cities would get the event and execute the change. This architecture would avoid the need to have a dangerous and powerful API.</p>
+<p>If, despite best efforts, there&rsquo;s a necessity for direct database changes via APIs, stringent mitigations are imperative. Some of the following alternatives could be used:</p>
 <ul>
-<li>Discover external network IP ranges, hosting providers and open ports or services.</li>
-<li>Collect previously breached credentials and any security sensitive information available to the public on internet.</li>
-<li>Enumerate IoT, Routers, Gateways or any embeeded devices used by the organization.</li>
-<li>Collect information about employees like email addresses, phone numbers, social media profiles.</li>
-<li>Discover Web applications, Mobile applications, and Cloud providers used by the organization.</li>
+<li>Implement role-based access control (RBAC) for API endpoints. Admin users should have restricted access and only be permitted to execute actions essential to their responsibilities. Fine-grained permissions and access controls limit the scope of potential damage, preventing unauthorized changes and enforcing a more secure operational environment.</li>
+<li>Employ transactional mechanisms to ensure the atomicity, consistency, isolation, and durability (ACID) of changes.</li>
+<li>Regularly audit and monitor API activities, setting up alerts for unusual or suspicious behavior (in this case the massive deletion of cities should be something that could have been noted as unusual).</li>
+<li>Implement comprehensive logging mechanisms to record every API interaction, facilitating post-incident forensics and compliance requirements.</li>
 </ul>
-<p><strong>3 – Mapping and Planning the Attack</strong></p>
-<p>On this stage, the process and activities executed varies deppending in our previous phases results and the information obtained on it.</p>
-<p>Some of these activities are going to be executed:</p>
-<ul>
-<li>Crafting social-engineering scenarios.</li>
-<li>Initial recon/exploit of applications.</li>
-<li>Verifying cloud services for any vulnerabilities/misconfigurations.</li>
-<li>Checking authentication forms for weak or default credentials vulnerable to any brute-force technique.</li>
-<li>Verifying networks and web applications to find any publicly known vulnerabilities.</li>
-</ul>
-<p><strong>4 – Executing Attack and Penetration</strong></p>
-<p>All the information gathered in previous phases are used to find any attack vectors on this phase.
-The following are examples of attack vectores executed:</p>
-<ul>
-<li>Attacking services found in our previous phases.</li>
-<li>Targeting employees using various social engineering techniques.</li>
-<li>Using a combination of attack vectors such as client-side vulnerabilities and phishing emails.</li>
-<li>Accessing any servers using breached credentials, brute force techniques or weak/default credentials.</li>
-</ul>
-<p><strong>5 – Reporting and Documentation</strong></p>
-<p>Each report is customized to the specific scope of the assesments and specifies any found vulnerability that our VulturSec consultants discovered.
-The reports are designed to be easily read, complete in the findings descriptions, provide exploitation probability, potential impact for each vulnerability and a remediation strategy for mitigating the risk associated with the vulnerability.</p>
+<p>Furthermore, consider implementing a dual-control principle, requiring multiple authorizations for critical actions. This adds an additional layer of security, preventing a single compromised account from making unauthorized changes. Regularly review and update API security protocols, staying abreast of evolving threats and vulnerabilities.</p>
+<p><strong>Impact of a hack in video game industry</strong></p>
+<p>The aftermath of a security breach within the gaming community extends far beyond the technical implications; it permeates the very essence of the player experience. The sensitivity and fidelity of players, crucial elements in the gaming ecosystem, come sharply into focus when faced with an incident like the recent hack that resulted in the deletion of player data. As players often invest not just time but emotions into their virtual worlds, the repercussions of such events can be profound.</p>
+<p>Individual voices within the gaming community echo the broader impact of such breaches. A player lamented,</p>
+<p><em>This sucks. I&rsquo;ve bought this a couple of days ago and I was really enjoying it. Hope they can sort it.</em></p>
+<p>The emotional investment in a game can be substantial, and disruptions caused by hacks can abruptly sever the enjoyment and engagement that players derive from their virtual adventures.</p>
+<p>Another player, on the verge of joining the community, expressed their disappointment,</p>
+<p><em>Ugh, I was literally about to buy this today.</em></p>
+<p>This sentiment encapsulates the delicate balance that game developers must maintain—a delicate balance between attracting new players and retaining the loyalty of existing ones. Security breaches not only jeopardize the trust of current players but also cast a shadow on potential newcomers&rsquo; decision-making.</p>
+<p><strong>Conclusion</strong></p>
+<p>In the dynamic realm of software development, safeguarding every line of code against the ever-evolving landscape of cyber threats poses an immense challenge. The swift pace of development and the perpetual demand for innovation often place companies in a delicate balancing act, juggling between pushing boundaries and fortifying defenses. It is an era where limited resources can become a bottleneck in the race to secure digital ecosystems.</p>
+<p>As evidenced by recent incidents, the gaming industry serves as a poignant example of the vulnerabilities inherent in software, despite the best efforts of talented development teams. Player experiences, often intricately woven into the fabric of these digital realms, can be disrupted in an instant by a security breach.</p>
+<p>Recognizing the complexities and constraints faced by companies, our mission is clear—to stand alongside development teams and offer support in the battle against potential hacks. We understand that the commitment to security goes beyond lines of code; it is about fostering a culture of vigilance and resilience. Our company is here to provide the expertise and resources needed to bolster cybersecurity measures, ensuring that the immersive worlds created by developers remain secure, and player trust is unwavering.</p>
+<p>In a landscape where the digital frontier expands at breakneck speed, we extend our hand to guide companies through the intricacies of securing their software. As technology evolves, so too does the threat landscape, and by joining forces, we can navigate these challenges together, fortifying the foundations of the digital experiences that captivate and inspire users worldwide.</p>
 
         </div>
         </div>
