@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM on Vultursec | Security in your hand</title>
+    <link>https://vultursec.com/tags/llm/</link>
+    <description>Recent content in LLM on Vultursec | Security in your hand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
+    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.com/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Risks of using Generative AI technologies in Video Game development</title>
+      <link>https://vultursec.com/blog/gen-ai-for-gaming/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursec.com/blog/gen-ai-for-gaming/</guid>
+      <description>In the dynamic landscape of the global video game market, where innovation and technology converge to shape the future of gaming, the role of artificial intelligence (AI) stands out as a game-changer.</description>
+    </item>
+    
+  </channel>
+</rss>
