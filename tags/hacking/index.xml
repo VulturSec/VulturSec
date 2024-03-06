@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)</copyright>
-    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 -0300</lastBuildDate><atom:link href="https://vultursec.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind the Cheat - Angry Birds Classics</title>
+      <link>https://vultursec.com/blog/behind-the-cheat-1/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 -0300</pubDate>
+      
+      <guid>https://vultursec.com/blog/behind-the-cheat-1/</guid>
+      <description>Hello everyone! I wanted to analyze some cheats on mobile videogames to understand the techniques used in this field.</description>
+    </item>
+    
     <item>
       <title>Risks of using Generative AI technologies in Video Game development</title>
       <link>https://vultursec.com/blog/gen-ai-for-gaming/</link>
